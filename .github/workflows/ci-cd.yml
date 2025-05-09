@@ -19,6 +19,11 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Update package-lock.json
+        run: |
+          rm package-lock.json
+          npm install
+
       - name: Install dependencies
         run: npm ci
 
