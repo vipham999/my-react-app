@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h1>test</h1>
+          <h1 style={{ color: "red" }}>test</h1>
           Learn React hoho jjjj nono jhjhjh
         </a>
       </header>
