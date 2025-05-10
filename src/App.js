@@ -6,7 +6,7 @@ function App() {
       <header
         className="App-header"
         style={{
-          backgroundColor: "green",
+          backgroundColor: "white",
         }}
       >
         <p>
